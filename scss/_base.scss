@@ -1,0 +1,36 @@
+// Primary Colors
+$dark-blue: hsl(233, 26%, 24%);
+$lime-green: hsl(136, 65%, 51%);
+$bright-cyan: hsl(192, 70%, 51%);
+// Neutral
+$grayish-blue: hsl(233, 8%, 62%);
+$light-grayish-blue: hsl(220, 16%, 96%);
+$very-light-gray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+// Resets
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    color: $grayish-blue;
+    background-color: $light-grayish-blue;
+}
+h1,h2,h3 {
+    font-weight: 300;
+    color: $dark-blue;
+}
+h1 {
+    font-size: 56px;
+}
